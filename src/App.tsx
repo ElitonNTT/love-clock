@@ -17,7 +17,7 @@ const AnniversaryClock: React.FC = () => {
     currentMinute: 0,
     currentSeconds: 0,
   });
-  const [currentMessageIndex, setCurrentMessageIndex] = useState<number>(0);
+  const [, setCurrentMessageIndex] = useState<number>(0);
   const [currentMessage, setCurrentMessage] = useState<string>("");
 
   const frasesAmorosas = [
