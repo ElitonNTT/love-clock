@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100dvh;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  background-size: contain;
+  background-image: url("assets/background.png");
+  color: #ff5543;
+  text-shadow: 2px 2px #ff0000;
+}
+.title-area {
+  padding: 20;
+  text-align: center;
+  text-justify: auto;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+.clock-area {
+  display: flex;
+  padding: 20;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.flex-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.days-loved {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.glass {
+  background: rgba(240, 240, 240, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(43, 43, 43, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.message-area {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* ------- FONTS ------- */
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
