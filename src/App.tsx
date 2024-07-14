@@ -136,7 +136,7 @@ const AnniversaryClock: React.FC = () => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [startDate]);
+  }, []);
 
   return (
     <div className="container poetsen-one-regular">
