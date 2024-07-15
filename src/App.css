@@ -74,3 +74,37 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@media (max-width: 768px) {
+  /* For mobile screens */
+  .title-area {
+    width: 90%;
+    font-size: 2.2rem;
+    padding: 4;
+  }
+  .clock-area {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    width: 90%;
+  }
+  .flex-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 0px;
+  }
+  .message-area {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .container {
+    gap: 20px;
+  }
+}
